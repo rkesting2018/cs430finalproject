@@ -2,5 +2,7 @@
   "name": "cs430finalproject",
   "app_id": "de2bacc0",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }

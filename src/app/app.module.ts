@@ -7,6 +7,7 @@ import { WeatherPage } from '../pages/weather/weather';
 import { LocationPage } from '../pages/location/location';
 import { HomePage } from '../pages/home/home';
 import { MapsPage } from '../pages/maps/maps';
+import { PhotosPage } from '../pages/photos/photos';
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -19,6 +20,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LocationPage,
     HomePage,
 	MapsPage,
+	PhotosPage,
     TabsPage
   ],
   imports: [
@@ -32,6 +34,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LocationPage,
     HomePage,
 	MapsPage,
+	PhotosPage,
     TabsPage
   ],
   providers: [
