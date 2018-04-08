@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { WeatherPage } from '../weather/weather';
 import { LocationPage } from '../location/location';
 import { MapsPage } from '../maps/maps';
-import { PhotosPage } from '../photos/photos';
+import { FavsPage } from '../favs/favs';
 import { HomePage } from '../home/home';
 
 @Component({
@@ -14,7 +14,7 @@ export class TabsPage {
   tab2Root = WeatherPage;
   tab3Root = LocationPage;
   tab4Root = MapsPage;
-  tab5Root = PhotosPage;
+  tab5Root = FavsPage;
 
   constructor() {
 
