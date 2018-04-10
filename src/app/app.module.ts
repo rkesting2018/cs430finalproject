@@ -20,6 +20,7 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireModule } from 'angularfire2';
 import { FirebaseService } from '../providers/firebase-service/firebase-service';
 
+
 const firebaseConfig = {
     apiKey: "AIzaSyBQ1atonjxFxRtNAeF6Y5HUcVrF27E6DGc",
     authDomain: "cs430finalproject.firebaseapp.com",
